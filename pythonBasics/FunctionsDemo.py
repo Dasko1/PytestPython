@@ -1,25 +1,16 @@
-#In Python, function is a group of related statements that perform a specific task.
-#Function Declaration
+# In Python, function is a group of related statements that perform a specific task.
+# Function Declaration
 
 
 def GreetMe(name):
-    print("Good Morning"+name)
-    #Function Call
+    print("Good Morning" + name + "!")
+    # Function Call
 
 
 def AddIntegers(a, b):
-    return a+b
+    return a + b
 
 
-GreetMe("Rahul Shetty")
+# GreetMe("Rahul Shetty")           # This is being called in FunctionCalls.py!
 
-print(AddIntegers(2, 3))
-
-
-
-
-
-
-
-
-
+# print(AddIntegers(2, 3))            # This is being called in FunctionCalls.py!

@@ -1,12 +1,12 @@
-#self keyword is mandatory for calling variable names into method
-#instance and class variables have whole different purpose
-#constructor name should be __init__
-#new keyword is not required when you create object
+# self keyword is mandatory for calling variable names into method
+# instance and class variables have whole different purpose
+# constructor name should be __init__
+# new keyword is not required when you create object
 
 class Calculator:
-    num = 100  #class variables
-    #default constructor
+    num = 100  # class variables
 
+    # default constructor
     def __init__(self, a, b):
         self.firstNumber = a
         self.secondNumber = b
@@ -28,4 +28,4 @@ obj1.getData()
 print(obj1.Summation())
 
 
-
+# In ll.11-12, firstNumber & secondNumber are instance variables declared in the constructor or method!
