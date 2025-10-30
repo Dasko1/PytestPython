@@ -1,3 +1,5 @@
+# This is about Inheritance!  Inheritance is acquiring the properties of a parent class!
+
 from pythonBasics.OopsDemo import Calculator
 
 
