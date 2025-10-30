@@ -1,5 +1,6 @@
 # This class will inherit the properties from the parent class GetName!
 # First, you have to import the parent class from the package pythonBasics!
+# You don't need to create a constructor like in GetName because ImplementGetName (child class) inherits it from the parent GetName!
 from pythonBasics import GetName
 
 
@@ -11,7 +12,8 @@ class ImplementGetName(GetName):
         return self.getFirstName()
 
 
-# "obj" is a new class declaration from ImplementGetName; ImplementGetName is a child class inherits the properties of the parent class GetName!
+# "obj" is a new class declaration from ImplementGetName; ImplementGetName is a child class getting the properties of the parent class GetName!
 # Notice that you don't have to write a line for input, because that is in the GetName parent class ImplementGetName inherits!
+# Remember in l.19 "obj" is the class & "getFirstName" is the method!
 obj = ImplementGetName()
 print(obj.getFirstName())
