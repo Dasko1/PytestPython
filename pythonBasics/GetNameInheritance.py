@@ -14,6 +14,6 @@ class ImplementGetName(GetName):
 
 # "obj" is a new class declaration from ImplementGetName; ImplementGetName is a child class getting the properties of the parent class GetName!
 # Notice that you don't have to write a line for input, because that is in the GetName parent class ImplementGetName inherits!
-# Remember in l.19 "obj" is the class & "getFirstName" is the method!!
+# Remember in l.19 "obj" is the class & "getFirstName" is the method!
 obj = ImplementGetName()
 print(obj.getFirstName())
