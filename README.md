@@ -1,11 +1,11 @@
 # Python Features
 
 ## Functions
--FunctionsDemo.py
--FunctionCalls.py
+- FunctionsDemo.py
+- FunctionCalls.py
 
 ## Class
--SimpleClass.py
--OopsDemo.py
--GetName.py
--GetNameInheritance.py
+- SimpleClass.py
+- OopsDemo.py
+- GetName.py
+- GetNameInheritance.py
