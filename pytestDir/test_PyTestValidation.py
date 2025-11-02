@@ -1,4 +1,4 @@
-#Fixtures
+# Fixtures
 import pytest
 
 
@@ -11,7 +11,7 @@ def preWork():
 @pytest.fixture(scope="function")
 def secondWork():
     print("I setup secondWork instance")
-    yield #pause
+    yield   # pause
     print("tear down validation")
 
 
