@@ -1,0 +1,5 @@
+pytestDir/test_MyPractice.py
+*.html
+*.png
+*.jpeg
+*.jpg

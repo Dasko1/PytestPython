@@ -26,8 +26,10 @@ def browserInstance(playwright, request):
 
     context = browser.new_context()
     page = context.new_page()
-    #page.goto(url_name)
+    # page.goto(url_name)
     yield page
     context.close()
     browser.close()
-#2 times, 1st run opened browser and completed, homepage
+
+
+# 2 times, 1st run opened browser and completed, homepage

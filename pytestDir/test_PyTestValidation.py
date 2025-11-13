@@ -24,5 +24,3 @@ def test_initialCheck(preWork, secondWork):
 @pytest.mark.skip
 def test_SecondCheck(preSetupWork, secondWork):
     print("This is Second test")
-
-
