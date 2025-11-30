@@ -14,8 +14,8 @@ def test_playwrightShortCut(page: Page):
     page.goto("https://rahulshettyacademy.com")
 
 
-# -- #terms  .text-info  tagName
-def test_coreLocators(page:Page):
+# -- css id=#terms  css classname=.text-info  tagName
+def test_coreLocators(page: Page):
     page.goto("https://rahulshettyacademy.com/loginpagePractise/")
     page.get_by_label("Username:").fill("rahulshettyacademy")
     page.get_by_label("Password:").fill("learnifdfd")
@@ -37,4 +37,3 @@ def test_firefoxBrowser(playwright: Playwright):
     page.get_by_role("link", name="terms and conditions").click()
     page.get_by_role("button", name="Sign In").click()
     expect(page.get_by_text("Incorrect username/password.")).to_be_visible()
-
